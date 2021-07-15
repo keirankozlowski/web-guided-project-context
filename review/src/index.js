@@ -5,6 +5,6 @@ import data from './data';
 import App from './App';
 
 render(
-    <App/>,
+    <App person={data} />,
     document.querySelector('#root')
 );
