@@ -1,5 +1,7 @@
 import React from 'react';
 
+// make another subcomponent, send it some data through props, use the data and get it to render
+
 const App = ({ person }) => {
     return(
     <div className="App component">
